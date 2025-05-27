@@ -1,0 +1,35 @@
+/* Reset all margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style all <h2> tags */
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* ID selector */
+#mainHeader {
+  background-color: #004d99;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Class selector */
+.eventCard {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Grouping selector */
+h3, p {
+  font-family: 'Segoe UI', sans-serif;
+  color: #444;
+}

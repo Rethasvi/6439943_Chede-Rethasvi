@@ -1,0 +1,18 @@
+.eventCard {
+  border: 2px solid #aaa;
+  padding: 20px;
+  margin: 15px;
+}
+
+/* Highlight form fields */
+input:focus {
+  outline: 2px solid #4caf50;
+}
+
+/* Example of hidden/display differences */
+.hiddenElement {
+  visibility: hidden;
+}
+.removedElement {
+  display: none;
+}

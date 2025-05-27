@@ -1,0 +1,26 @@
+/* Link states */
+a:link {
+  color: #007BFF;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+
+/* Navigation list */
+nav ul {
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  padding: 8px;
+  margin: 4px 0;
+}

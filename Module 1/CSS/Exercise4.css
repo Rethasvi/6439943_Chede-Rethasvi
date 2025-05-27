@@ -1,0 +1,16 @@
+/* Text and background using HEX and RGBA */
+body {
+  background-color: #ffffff;
+  color: rgba(34, 34, 34, 0.9);
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Gradient background for section headers */
+section.header {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  padding: 10px;
+}
